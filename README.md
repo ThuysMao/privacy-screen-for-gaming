@@ -34,6 +34,27 @@ build_windows.bat
 ```
 File thực thi sẽ được tạo ra bên trong thư mục `dist`.
 
+## 📖 Hướng dẫn sử dụng & Phím tắt
+
+Sau khi khởi chạy, một lớp phủ màu tối sẽ xuất hiện trên màn hình. Bạn có thể sử dụng chuột và bàn phím để tương tác và điều chỉnh lớp phủ này theo ý muốn. 
+
+**Lưu ý quan trọng về tính năng Khoá (Lock):**
+Khi bạn "Khoá" lớp phủ, nó sẽ chuyển sang chế độ "click-through" (chuột xuyên thấu). Lúc này bạn sẽ không thể bấm chuột hay dùng các phím tắt thông thường lên lớp phủ nữa, để có thể thao tác với các ứng dụng bên dưới bình thường. Để mở khoá, bạn **BẮT BUỘC** phải dùng phím tắt toàn cầu (Global Hotkey): `Ctrl + Shift + L`.
+
+### 🖱️ Thao tác bằng chuột
+- **Kéo thả (Click & Drag):** Nhấn giữ chuột trái vào lớp phủ và kéo để di chuyển nó đến vị trí mong muốn trên màn hình.
+
+### ⌨️ Danh sách phím tắt (Khi cửa sổ đang được chọn / Focus)
+- `Space` (Phím cách): Bật / Tắt lớp phủ.
+- `L`: Khoá lớp phủ (chuyển sang chế độ xuyên thấu / click-through).
+- `+` / `=` / `-`: Tăng / Giảm độ đậm (độ mờ) của lớp phủ.
+- `[` / `]`: Giảm / Tăng độ tương phản (đổi màu lớp phủ).
+- `Phím mũi tên Lên/Xuống/Trái/Phải`: Tăng/Giảm kích thước chiều cao và chiều rộng của lớp phủ.
+- `Esc`: Lưu lại cấu hình hiện tại và thoát ứng dụng.
+
+### 🌐 Phím tắt toàn cầu (Global Hotkey)
+- `Ctrl + Shift + L`: Mở khoá lớp phủ khi đang ở chế độ xuyên thấu (bất kể bạn đang focus vào ứng dụng nào).
+
 ---
 
 *Lưu ý: Công cụ này được sinh ra nhằm mục đích bảo vệ quyền riêng tư cá nhân, người dùng tự chịu trách nhiệm về cách sử dụng công cụ trong môi trường làm việc.*
